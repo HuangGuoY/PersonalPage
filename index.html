@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KeepStudy</title>
+    <link rel="icon" href="images/icon/favicon.png" sizes="64x64" type="image/x-icon">
     <link rel="stylesheet" href="css/paper.min.css">
     <link rel="stylesheet" href="css/index.css">
-    <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -44,37 +44,58 @@
         </nav>
     </header>
     <div class="row">
-        <div class="sm-4 col">
+        <div class="sm-3 col">
             <aside>
                 <div class="person-info">
                     <div class="card" style="width: 100%;">
-                        <img src="https://picsum.photos/768" alt="Card example image">
+                        <div class="card-avatar">
+                            <img src="images/icon/avatar.png" alt="GuoY">
+                        </div>
                         <div class="card-body">
-                            <h4 class="card-title">My awesome Paper card!</h4>
-                            <div class="example-content">
-                                <div id="container" style="position: relative;">
-                                    <svg viewBox="0 0 100 4" preserveAspectRatio="none"
-                                        style="display: block; width: 100%; height: 100%;">
-                                        <path d="M 0,2 L 100,2" stroke="#eee" stroke-width="1" fill-opacity="0">
-                                        </path>
-                                        <path d="M 0,2 L 100,2" stroke="#FFEA82" stroke-width="4" fill-opacity="0"
-                                            style="stroke-dasharray: 100, 100; stroke-dashoffset: 99.5914;"></path>
-                                    </svg>
-                                    <p class="progressbar-text"
-                                        style="color: rgb(153, 153, 153); position: absolute; left: 50%; top: 30px; padding: 0px; margin: 0px; right: 0px;">
-                                        80 %
-                                    </p>
-                                </div>
+                            <h4 class="card-title">My Skill List</h4>
+                            <div class="skill-content">
+                                <p>HTML:<div id="html-container" style="position: relative;"></div></p>
+                                <p>CSS:<div id="css-container" style="position: relative;"></div></p>
+                                <p>JavaScript:<div id="js-container" style="position: relative;"></div></p>
+                                <p>Vue:<div id="vue-container" style="position: relative;"></div></p>
                             </div>
-                            <p class="card-text">Notice that the card width in this example have been set to 20rem,
-                                otherwise it will try to fill the current container/row where the card is.</p>
-                            <button>Let me go here!</button>
                         </div>
                     </div>
                 </div>
             </aside>
         </div>
-        <div class="sm-8 col">col-9 col</div>
+        <div class="sm-9 col">
+            <div class="row flex-spaces tabs">
+                <input id="tab1" type="radio" name="tabs" checked>
+                <label for="tab1">Data structure</label>
+              
+                <input id="tab2" type="radio" name="tabs">
+                <label for="tab2">Tab 2</label>
+              
+                <input id="tab3" type="radio" name="tabs">
+                <label for="tab3">Game</label>
+              
+                <div class="content" id="content1">
+                  <p>
+                    虽然说前端在实际开发中可能不是很需要数据结构，但是身为一个有梦想的计算机狗，怎么能不学习数据结构，学习使我快乐（秃头）~
+                  </p>
+                </div>
+                <div class="content" id="content2">
+                  <p>
+                        222Bacon ipsum dolor sit amet beef venison beef ribs kielbasa...
+                        Brisket meatball turkey short loin boudin leberkas meatloaf...
+                  </p>
+                </div>
+                <div class="content" id="content3">
+                  <p>
+                    敲代码累了，可以打打游戏放松一下~<br>
+                    <img src="images/icon/nintendo-switch.png" alt="" class="no-responsive no-border">My NintendoSwitch:
+                    <img src="images/icon/playstation-4.png" alt="" class="no-responsive no-border">My PlayStation:
+                    <img src="images/icon/steam.png" alt="" class="no-responsive no-border">My Steam:
+                  </p>
+                </div>
+              </div>
+        </div>
     </div>
 
     <footer>
@@ -82,7 +103,7 @@
     </footer>
 
     <script src="js/jquery.min.js"></script>
-    <script src="js/progressbar.js"></script>
+    <script src="js/progressbar.min.js"></script>
     <script src="js/app.js"></script>
 </body>
 

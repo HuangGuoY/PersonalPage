@@ -1,3 +1,4 @@
+
 nav a {
     border-bottom:none;
 }
@@ -17,8 +18,13 @@ nav ul.inline{
     margin: 0 2%;
 }
 
-.example-content {
-    position: relative;
-    background: #fff;
-    height: 200px;
+.card-avatar{
+    text-align: center;
+    margin-top: 1em;
+}
+.card-avatar img{
+    display: inline;
+}
+.content{
+    width: 90%;
 }
