@@ -1,0 +1,24 @@
+nav a {
+    border-bottom:none;
+}
+nav div{
+    margin: 0.2rem 0.2rem;
+}
+nav ul.inline{
+    margin-top: 0;
+    margin-bottom: auto;
+}
+.nav-icon-github{
+    width: 28px;
+    position: relative;
+    top: 4px;
+}
+.person-info{
+    margin: 0 2%;
+}
+
+.example-content {
+    position: relative;
+    background: #fff;
+    height: 200px;
+}
