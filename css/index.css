@@ -1,44 +1,58 @@
-
 nav a {
-    border-bottom:none;
+    border-bottom: none;
 }
-nav div{
+
+nav div {
     margin: 0.2rem 0.2rem;
 }
-nav ul.inline{
+
+nav ul.inline {
     margin-top: 0;
     margin-bottom: auto;
 }
-.nav-icon-github{
+
+.nav-icon-github {
     width: 28px;
     position: relative;
     top: 4px;
 }
-.person-info{
+.nav-icon-saomiao {
+    width: 64px;
+    position: absolute;
+    top: 12px;
+    left: 16px;
+}
+
+.person-info {
     margin: 0 2%;
 }
 
-.card-avatar{
+.card-avatar {
     text-align: center;
     margin-top: 1em;
 }
-.card-avatar img{
+
+.card-avatar img {
     max-width: 70%;
     display: inline;
 }
-.content{
+
+.content {
     width: 90%;
 }
-#content3 img{
+
+#content3 img {
     width: 48px;
     top: 14px;
     margin-right: 10px;
     position: relative;
 }
-#content3 span{
+
+#content3 span {
     color: #a2a2a2
 }
+
 footer {
     text-align: center;
     padding: 2em 0;
-  }
+}

@@ -1,3 +1,4 @@
+
 // Docs: http://progressbarjs.readthedocs.org/en/1.0.0/
 
 let htmlBar = new ProgressBar.Line('#html-container', {
