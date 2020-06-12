@@ -129,3 +129,59 @@ var vueBar = new ProgressBar.Line('#vue-container', {
 
 vueBar.animate(0.7);  // Number from 0.0 to 1.0
 
+// 初始化echarts实例
+var dom = document.getElementById("skill-tree");
+var myChart = echarts.init(dom);
+var app = {};
+option = null;
+myChart.showLoading();
+$.get('data/skill.json', function (data) {
+    myChart.hideLoading();
+
+    echarts.util.each(data.children, function (datum, index) {
+        index % 2 === 0 && (datum.collapsed = true);
+    });
+
+    myChart.setOption(option = {
+        tooltip: {
+            trigger: 'item',
+            triggerOn: 'mousemove'
+        },
+        series: [
+            {
+                type: 'tree',
+
+                data: [data],
+
+                top: '2%',
+                left: '10%',
+                bottom: '5%',
+                right: '30%',
+
+                symbolSize: 9,
+
+                label: {
+                    position: 'left',
+                    verticalAlign: 'middle',
+                    align: 'right',
+                    fontSize: 12
+                },
+
+                leaves: {
+                    label: {
+                        position: 'right',
+                        verticalAlign: 'middle',
+                        align: 'left'
+                    }
+                },
+
+                expandAndCollapse: true,
+                animationDuration: 500,
+                animationDurationUpdate: 750
+            }
+        ]
+    });
+});;
+if (option && typeof option === "object") {
+    myChart.setOption(option, true);
+}

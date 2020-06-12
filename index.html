@@ -54,10 +54,14 @@
                         <div class="card-body">
                             <h4 class="card-title">My Skill List</h4>
                             <div class="skill-content">
-                                <p>HTML:<div id="html-container" style="position: relative;"></div></p>
-                                <p>CSS:<div id="css-container" style="position: relative;"></div></p>
-                                <p>JavaScript:<div id="js-container" style="position: relative;"></div></p>
-                                <p>Vue:<div id="vue-container" style="position: relative;"></div></p>
+                                <p>HTML:<div id="html-container" style="position: relative;"></div>
+                                </p>
+                                <p>CSS:<div id="css-container" style="position: relative;"></div>
+                                </p>
+                                <p>JavaScript:<div id="js-container" style="position: relative;"></div>
+                                </p>
+                                <p>Vue:<div id="vue-container" style="position: relative;"></div>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -68,42 +72,77 @@
             <div class="row flex-spaces tabs">
                 <input id="tab1" type="radio" name="tabs" checked>
                 <label for="tab1">Data structure</label>
-              
+
                 <input id="tab2" type="radio" name="tabs">
-                <label for="tab2">Tab 2</label>
-              
+                <label for="tab2">Skill</label>
+
                 <input id="tab3" type="radio" name="tabs">
                 <label for="tab3">Game</label>
-              
+
                 <div class="content" id="content1">
-                  <p>
-                    虽然说前端在实际开发中可能不是很需要数据结构，但是身为一个有梦想的计算机狗，怎么能不学习数据结构，学习使我快乐（秃头）~
-                  </p>
+                    <h4>
+                        虽然说前端在实际开发中可能不是很需要数据结构，但是身为一个有梦想的计算机狗，怎么能不学习数据结构，学习使我快乐（秃头）~
+                    </h4>
+                    <h5>数据结构的内容有(红色较重点)：</h5>
+                    <h3>
+                        <span class="badge secondary">1.基本概念</span>
+                        <span class="badge secondary">2.线性表</span>
+                        <span class="badge secondary">3.栈和队列</span>
+                        <span class="badge danger">4.树</span>
+                        <span class="badge secondary">5.图</span>
+                        <span class="badge secondary">6.查找</span>
+                        <span class="badge danger">7.排序</span>
+                    </h3>
+                    <h4>
+                        数据结构一种非常重要的逻辑思维能力的锻炼， 也是程序员入门的条件。
+                        数据结构也是一种思想：如何把现实问题转化为计算机语言的表示。
+                        考研中占比也很大。
+                    </h4>
                 </div>
                 <div class="content" id="content2">
-                  <p>
-                        222Bacon ipsum dolor sit amet beef venison beef ribs kielbasa...
-                        Brisket meatball turkey short loin boudin leberkas meatloaf...
-                  </p>
+                    <h4 style="text-align: center;">
+                        前端学习技术栈：
+                    </h4>
+                    <div style="text-align: center;">
+                        <div id="skill-tree" style="width: 350px;height:100vh;display: inline-block;"></div>
+                    </div>
+                    <h4>
+                        目前正在学习的知识：TypeScript、React。
+                    </h4>
                 </div>
                 <div class="content" id="content3">
-                  <p>
-                    敲代码累了，可以打打游戏放松一下~<br>
-                    <img src="images/icon/nintendo-switch.png" alt="" class="no-responsive no-border">My NintendoSwitch:
-                    <img src="images/icon/playstation-4.png" alt="" class="no-responsive no-border">My PlayStation:
-                    <img src="images/icon/steam.png" alt="" class="no-responsive no-border">My Steam:
-                  </p>
+                    <h3>
+                        Game Social~
+                        <div>
+                            <h5><img src="images/icon/nintendo-switch.png" alt="nintendo-switc"
+                                    class="no-responsive no-border">NS: <span>SW-4587-7154-1218</span>
+                            </h5>
+                            <h5><img src="images/icon/playstation-4.png" alt="playstation-4"
+                                    class="no-responsive no-border">PlayStation:<span>2771092657@qq.com</span>
+                            </h5>
+                            <h5><img src="images/icon/steam.png" alt="steam"
+                                    class="no-responsive no-border">Steam:<span>GuoY(FrendCode:136755361)</span>
+                            </h5>
+                        </div>
+                    </h3>
                 </div>
-              </div>
+            </div>
         </div>
     </div>
 
     <footer>
-
+        <span>© GuoY</span>
     </footer>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/progressbar.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl/dist/echarts-gl.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat/dist/ecStat.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/dataTool.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/china.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/world.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/bmap.min.js"></script>
     <script src="js/app.js"></script>
 </body>
 

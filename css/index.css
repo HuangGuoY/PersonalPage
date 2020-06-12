@@ -23,8 +23,22 @@ nav ul.inline{
     margin-top: 1em;
 }
 .card-avatar img{
+    max-width: 70%;
     display: inline;
 }
 .content{
     width: 90%;
 }
+#content3 img{
+    width: 48px;
+    top: 14px;
+    margin-right: 10px;
+    position: relative;
+}
+#content3 span{
+    color: #a2a2a2
+}
+footer {
+    text-align: center;
+    padding: 2em 0;
+  }
