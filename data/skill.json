@@ -1,166 +1,304 @@
 {
- "name": "前端",
- "children": [
-  {
-   "name": "HTML",
-   "children": [
-    {
-     "name": "基础",
-     "children": [
-      {"name": "HTML常用标签"}
-     ]
-    },
-    {
-     "name": "HTML5",
-     "children": [
-      {"name": "HTML5语义元素"},
-      {"name": "视频和音频"},
-      {"name": "Canvas"},
-      {"name": "SVG"},
-      {"name": "WebSocket"}
-     ]
-    }
-   ]
-  },
-  {
-    "name": "CSS",
-    "children": [
-     {
-      "name": "CSS2",
-      "children": [
-       {"name": "常用选择器"},
-       {"name": "基础样式"},
-       {"name": "布局定位"},
-       {"name": "计量单位"},
-       {"name": "盒子模型"}
-      ]
-     },
-     {
-      "name": "CSS3",
-      "children": [
-       {"name": "CSS3新特性"},
-       {"name": "过渡、动画"},
-       {"name": "弹性布局Flex"},
-       {"name": "弹性布局grid"},
-       {"name": "盒子变幻"}
-      ]
-     }
+    "name": "前端",
+    "children": [{
+            "name": "核心基础",
+            "children": [{
+                    "name": "HTML",
+                    "children": [{
+                            "name": "基础",
+                            "children": [{
+                                "name": "HTML常用标签"
+                            }]
+                        },
+                        {
+                            "name": "HTML5",
+                            "children": [{
+                                    "name": "HTML5语义元素"
+                                },
+                                {
+                                    "name": "视频和音频"
+                                },
+                                {
+                                    "name": "Canvas"
+                                },
+                                {
+                                    "name": "SVG"
+                                },
+                                {
+                                    "name": "WebSocket"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "CSS",
+                    "children": [{
+                            "name": "CSS2",
+                            "children": [{
+                                    "name": "常用选择器"
+                                },
+                                {
+                                    "name": "基础样式"
+                                },
+                                {
+                                    "name": "布局定位"
+                                },
+                                {
+                                    "name": "计量单位"
+                                },
+                                {
+                                    "name": "盒子模型"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "CSS3",
+                            "children": [{
+                                    "name": "CSS3新特性"
+                                },
+                                {
+                                    "name": "过渡、动画"
+                                },
+                                {
+                                    "name": "弹性布局Flex"
+                                },
+                                {
+                                    "name": "弹性布局grid"
+                                },
+                                {
+                                    "name": "盒子变幻"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Javascript",
+                    "children": [{
+                            "name": "ES5",
+                            "children": [{
+                                "name": "ES5基础"
+                            }]
+                        },
+                        {
+                            "name": "ES6",
+                            "children": [{
+                                    "name": "let/const"
+                                },
+                                {
+                                    "name": "symbol"
+                                },
+                                {
+                                    "name": "扩展运算符"
+                                },
+                                {
+                                    "name": "解构赋值"
+                                },
+                                {
+                                    "name": "箭头函数"
+                                },
+                                {
+                                    "name": "Set/Map"
+                                },
+                                {
+                                    "name": "闭包"
+                                },
+                                {
+                                    "name": "拷贝"
+                                },
+                                {
+                                    "name": "Promise"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ES7"
+                        },
+                        {
+                            "name": "ES8"
+                        },
+                        {
+                            "name": "Jquery"
+                        },
+                        {
+                            "name": "TypeScript"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "前端UI框架",
+            "children": [{
+                    "name": "Element"
+                },
+                {
+                    "name": "Bootstrap"
+                },
+                {
+                    "name": "iView"
+                },
+                {
+                    "name": "Layui"
+                }
+            ]
+        },
+        {
+            "name": "其他必备工具",
+            "children": [{
+                    "name": "Git"
+                },
+                {
+                    "name": "SVN"
+                },
+                {
+                    "name": "Eslint"
+                }
+            ]
+        },
+        {
+            "name": "前端构建工具",
+            "children": [{
+                    "name": "Webpack"
+                },
+                {
+                    "name": "Gulp"
+                },
+                {
+                    "name": "Bable"
+                },
+                {
+                    "name": "Mock"
+                }
+            ]
+        },
+        {
+            "name": "前端框架",
+            "children": [{
+                    "name": "Vue",
+                    "children": [{
+                            "name": "Vue-Cli"
+                        },
+                        {
+                            "name": "Vue-router"
+                        },
+                        {
+                            "name": "VueX"
+                        },
+                        {
+                            "name": "Vue-router"
+                        },
+                        {
+                            "name": "Vux"
+                        },
+                        {
+                            "name": "Vue-devtools"
+                        }
+                    ]
+                },
+                {
+                    "name": "React",
+                    "children": [{
+                            "name": "Redux"
+                        },
+                        {
+                            "name": "React-router"
+                        },
+                        {
+                            "name": "React Native"
+                        },
+                        {
+                            "name": "React-redux"
+                        }
+                    ]
+                },
+                {
+                    "name": "Angular",
+                    "children": [{
+                            "name": "AngularCli"
+                        },
+                        {
+                            "name": "Angular组件"
+                        },
+                        {
+                            "name": "Angular路由"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "计算机专业课程",
+            "children": [{
+                    "name": "数据结构",
+                    "children": [{
+                            "name": "算法复杂度"
+                        },
+                        {
+                            "name": "线性表"
+                        },
+                        {
+                            "name": "树"
+                        },
+                        {
+                            "name": "图"
+                        },
+                        {
+                            "name": "查找"
+                        },
+                        {
+                            "name": "排序"
+                        }
+                    ]
+                },
+                {
+                    "name": "计算机网络",
+                    "children": [{
+                        "name": "体系结构"
+                    }, {
+                        "name": "OSI模型"
+                    },
+                    {
+                        "name": "网络安全"
+                    }]
+                },
+                {
+                    "name": "组成原理",
+                    "children": [{
+                            "name": "数据表示和运算"
+                        },
+                        {
+                            "name": "存储系统"
+                        },
+                        {
+                            "name": "指令系统"
+                        },
+                        {
+                            "name": "CPU相关"
+                        },
+                        {
+                            "name": "总线"
+                        }
+                    ]
+                },
+                {
+                    "name": "操作系统",
+                    "children": [{
+                        "name": "进程"
+                    },
+                    {
+                        "name": "内存"
+                    },
+                    {
+                        "name": "文件"
+                    },
+                    {
+                        "name": "IO设备"
+                    }
+                ]
+                }
+            ]
+        }
     ]
-   },
-   {
-    "name": "Javascript",
-    "children": [
-     {
-      "name": "ES5",
-      "children": [
-       {"name": "ES5基础"}
-      ]
-     },
-     {
-      "name": "ES6",
-      "children": [
-       {"name": "let/const"},
-       {"name": "symbol"},
-       {"name": "扩展运算符"},
-       {"name": "解构赋值"},
-       {"name": "箭头函数"},
-       {"name": "Set/Map"},
-       {"name": "闭包"},
-       {"name": "拷贝"},
-       {"name": "Promise"}
-      ]
-     },
-     {
-       "name": "ES7"
-      },
-     {
-       "name": "ES8"
-      }
-    ]
-   },
-   {
-    "name": "前端UI框架",
-    "children": [
-     {
-      "name": "ElementUI"
-     },
-     {
-      "name": "Bootstrap"
-     },
-     {
-      "name": "iView"
-     },
-     {
-      "name": "Layui"
-     }
-    ]
-   },
-   {
-    "name": "前端框架",
-    "children": [
-     {
-      "name": "Vue",
-      "children": [
-       {"name": "Vue-router"},
-       {"name": "VueX"},
-       {"name": "Vue-router"},
-       {"name": "Vux"},
-       {"name": "Vue-devtools"}
-      ]
-     },
-     {
-      "name": "React",
-      "children": [
-       {"name": "HTML5语义元素"},
-       {"name": "视频和音频"},
-       {"name": "Canvas"},
-       {"name": "SVG"},
-       {"name": "WebSocket"}
-      ]
-     },
-     {
-      "name": "Angular",
-      "children": [
-       {"name": "HTML5语义元素"},
-       {"name": "视频和音频"},
-       {"name": "Canvas"},
-       {"name": "SVG"},
-       {"name": "WebSocket"}
-      ]
-     }
-    ]
-   },
-   {
-    "name": "计算机专业课程",
-    "children": [
-     {
-      "name": "数据结构",
-      "children": [
-       {"name": "算法复杂度"},
-       {"name": "线性表"},
-       {"name": "树"},
-       {"name": "图"},
-       {"name": "查找"},
-       {"name": "排序"}
-      ]
-     },
-     {
-      "name": "计算机网络"
-     },
-     {
-      "name": "计算机组成原理", 
-      "children": [
-        {"name": "数据表示和运算"},
-        {"name": "存储系统"},
-        {"name": "指令系统"},
-        {"name": "CPU相关"},
-        {"name": "总线"}
-       ]
-     },
-     {
-      "name": "操作系统"
-     }
-    ]
-   }
- ]
 }
