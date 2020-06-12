@@ -138,10 +138,6 @@ myChart.showLoading();
 $.get('data/skill.json', function (data) {
     myChart.hideLoading();
 
-    echarts.util.each(data.children, function (datum, index) {
-        index % 2 === 0 && (datum.collapsed = true);
-    });
-
     myChart.setOption(option = {
         tooltip: {
             trigger: 'item',
@@ -153,7 +149,7 @@ $.get('data/skill.json', function (data) {
 
                 data: [data],
 
-                top: '2%',
+                top: '5%',
                 left: '10%',
                 bottom: '5%',
                 right: '30%',
