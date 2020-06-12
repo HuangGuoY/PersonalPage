@@ -10,11 +10,14 @@ nav ul.inline {
     margin-top: 0;
     margin-bottom: auto;
 }
-
+.collapsible label{
+    font-size: 1.3em;
+    font-weight: normal;
+}
 .nav-icon-github {
-    width: 28px;
+    width: 48px;
     position: relative;
-    top: 4px;
+    top: 14px;
 }
 .nav-icon-saomiao {
     width: 64px;

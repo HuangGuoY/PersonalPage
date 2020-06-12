@@ -182,3 +182,7 @@ $.get('data/skill.json', function (data) {
 if (option && typeof option === "object") {
     myChart.setOption(option, true);
 }
+
+function toGithub(){
+  window.open('https://github.com/HuangGuoY/PersonalPage');
+}

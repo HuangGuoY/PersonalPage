@@ -40,7 +40,8 @@
                                 <div class="modal-body" style="text-align: center;">
                                     <label class="btn-close" for="modal-1">X</label>
                                     <h4 class="modal-title">
-                                        <img src="images/icon/saomiao.png" class="no-responsive no-border nav-icon-saomiao">
+                                        <img src="images/icon/saomiao.png"
+                                            class="no-responsive no-border nav-icon-saomiao">
                                         UseYourPhone
                                     </h4>
                                     <p class="modal-text">
@@ -52,9 +53,27 @@
                         <li><a href="https://www.getpapercss.com/docs/">About This CSS</a></li>
                         <li>
                             <div style="align-self: center;">
-                                <img src="images/icon/github.png" class="no-responsive no-border nav-icon-github"
-                                    alt="Github">
-                                <a href="https://github.com/HuangGuoY"> Github</a>
+
+                                <div class="row flex-spaces no-border">
+                                    <label class="row flex-spaces no-border" for="modal-2">
+                                        <img src="images/icon/github.png"
+                                            class="no-responsive no-border nav-icon-github" alt="Github">Github
+                                    </label>
+                                </div>
+                                <input class="modal-state" id="modal-2" type="checkbox">
+                                <div class="modal">
+                                    <label class="modal-bg" for="modal-2"></label>
+                                    <div class="modal-body" style="text-align: center;">
+                                        <h4 class="modal-title">
+                                            <br>
+                                            If you like it
+                                        </h4>
+                                        <p class="modal-text">
+                                            欢迎给☆
+                                        </p>
+                                        <label for="modal-2" onclick="toGithub()">OK</label>
+                                    </div>
+                                </div>
                             </div>
                         </li>
                     </ul>
