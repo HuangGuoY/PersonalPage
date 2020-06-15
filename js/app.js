@@ -32,7 +32,7 @@ let htmlBar = new ProgressBar.Line('#html-container', {
   }
 });
 
-htmlBar.animate(0.8);  // Number from 0.0 to 1.0
+htmlBar.animate(0.85);  // Number from 0.0 to 1.0
 
 let cssBar = new ProgressBar.Line('#css-container', {
   strokeWidth: 4,
@@ -96,7 +96,7 @@ var jsBar = new ProgressBar.Line('#js-container', {
   }
 });
 
-jsBar.animate(0.7);  // Number from 0.0 to 1.0
+jsBar.animate(0.75);  // Number from 0.0 to 1.0
 
 var vueBar = new ProgressBar.Line('#vue-container', {
   strokeWidth: 4,
@@ -128,7 +128,7 @@ var vueBar = new ProgressBar.Line('#vue-container', {
   }
 });
 
-vueBar.animate(0.7);  // Number from 0.0 to 1.0
+vueBar.animate(0.75);  // Number from 0.0 to 1.0
 
 // 初始化echarts实例
 var dom = document.getElementById("skill-tree");
