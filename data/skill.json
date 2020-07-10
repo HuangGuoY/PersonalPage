@@ -209,9 +209,6 @@
                             "name": "Vue-router"
                         },
                         {
-                            "name": "Vux"
-                        },
-                        {
                             "name": "Vue-devtools"
                         }
                     ]
